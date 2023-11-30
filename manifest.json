@@ -1,0 +1,11 @@
+{
+	"id": "folder-background",
+	"name": "Folder Background",
+	"version": "0.0.1",
+	"minAppVersion": "0.15.0",
+	"description": "This is a plugin for Obsidian that allows you to set a background image for a folder.",
+	"author": "dallinlarsen",
+	"authorUrl": "https://obsidian.md",
+	"fundingUrl": "https://obsidian.md/pricing",
+	"isDesktopOnly": false
+}
