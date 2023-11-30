@@ -6,3 +6,32 @@ available in the app when your plugin is enabled.
 If your plugin does not need CSS, delete this file.
 
 */
+
+.view-content {
+	z-index: 0;
+}
+
+.markdown-source-view::after {
+	background-image: var(--image-url);
+	content: "";
+	position: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	filter: opacity(25%) brightness(50%) saturate(50%);
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+}
+
+.background-car::after {
+	content: "";
+	background-image: url("https://images.pexels.com/photos/1545743/pexels-photo-1545743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
+
+.background-lava::after {
+	content: "";
+	background-image: url("https://images.pexels.com/photos/983200/pexels-photo-983200.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
